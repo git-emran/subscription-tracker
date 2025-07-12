@@ -11,3 +11,5 @@ userRouter.post("/", (req, res) => res.send({ title: "CREATE a user" }));
 userRouter.put("/", (req, res) => res.send({ title: "UPDATE user" }));
 
 userRouter.delete("/", (req, res) => res.send({ title: "DELETE  users" }));
+
+export default userRouter;
